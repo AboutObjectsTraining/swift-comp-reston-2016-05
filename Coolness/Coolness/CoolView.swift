@@ -31,6 +31,14 @@ class CoolView: UIView
         addSubview(cell2)
         addSubview(cell3)
         
+        cell1.text = "Hello World!"
+        cell2.text = "Now on the App Store!"
+        cell3.text = "Only $0.99!"
+        
+        cell1.sizeToFit()
+        cell2.sizeToFit()
+        cell3.sizeToFit()
+        
         cell1.backgroundColor = UIColor.purpleColor()
         cell2.backgroundColor = UIColor.orangeColor()
         cell3.backgroundColor = UIColor.brownColor()
