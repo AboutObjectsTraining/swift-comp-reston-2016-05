@@ -20,3 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     }
 }
 
+//extension AppDelegate
+//{
+//    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        guard let touch = touches.first, view = touch.view else { return }
+//        view.panBy(dx: touch.deltaX, dy: touch.deltaY, constrainedTo: CGRect.infinite)
+//    }
+//}
