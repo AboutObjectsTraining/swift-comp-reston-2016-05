@@ -19,7 +19,7 @@ class CoolViewCell: UIView
 {
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?)
     {
-        guard let touch = touches.first, view = touch.view, let owningView = view.superview else { return }
+        guard let touch = touches.first, view = touch.view, owningView = view.superview else { return }
         
         view.panBy(dx: touch.deltaX, dy: touch.deltaY, constrainedTo: owningView.bounds)
     }
