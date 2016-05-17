@@ -2,15 +2,16 @@ import UIKit
 
 extension UITouch
 {
-    func deltaXInView(view: UIView) -> CGFloat { return locationInView(view).x - previousLocationInView(view).x }
-    func deltaYInView(view: UIView) -> CGFloat { return locationInView(view).y - previousLocationInView(view).y }
+    var deltaX: CGFloat { return locationInView(view).x - previousLocationInView(view).x }
+    var deltaY: CGFloat { return locationInView(view).y - previousLocationInView(view).y }
 }
 
-extension CGRect
+extension UIView
 {
-    mutating func offsetInPlace(dx dx: CGFloat, dy: CGFloat, constrainedTo otherRect: CGRect) {
-        if otherRect.contains(offsetBy(dx: dx, dy: CGFloat(0))) { origin.x += dx }
-        if otherRect.contains(offsetBy(dx: CGFloat(0), dy: dy)) { origin.y += dy }
+    func panBy(dx dx: CGFloat, dy: CGFloat, constrainedTo rect: CGRect)
+    {
+        if rect.contains(frame.offsetBy(dx: dx, dy: CGFloat(0))) { center.x += dx }
+        if rect.contains(frame.offsetBy(dx: CGFloat(0), dy: dy)) { center.y += dy }
     }
 }
 
@@ -20,6 +21,6 @@ class CoolViewCell: UIView
     {
         guard let touch = touches.first, view = touch.view, let owningView = view.superview else { return }
         
-        view.frame.offsetInPlace(dx: touch.deltaXInView(view), dy: touch.deltaYInView(view), constrainedTo: owningView.bounds)
+        view.panBy(dx: touch.deltaX, dy: touch.deltaY, constrainedTo: owningView.bounds)
     }
 }
