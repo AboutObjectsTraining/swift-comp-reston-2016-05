@@ -33,6 +33,6 @@ class CoolView: UIView
         
         cell1.backgroundColor = UIColor.purpleColor()
         cell2.backgroundColor = UIColor.orangeColor()
-        cell3.backgroundColor = UIColor.blueColor()
+        cell3.backgroundColor = UIColor.brownColor()
     }
 }
