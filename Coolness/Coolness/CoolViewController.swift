@@ -41,6 +41,7 @@ class CoolViewController: UIViewController
         textField = UITextField(frame: CGRect(x: 8, y: 28, width: 240, height: 30))
         textField.borderStyle = .RoundedRect
         textField.placeholder = "Enter some text"
+        textField.delegate = self
         
         let button = UIButton(type: .System)
         button.setTitle("Add", forState: .Normal)
@@ -54,3 +55,12 @@ class CoolViewController: UIViewController
         accessoryView.addSubview(button)
     }
 }
+
+extension CoolViewController: UITextFieldDelegate
+{
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+}
+
