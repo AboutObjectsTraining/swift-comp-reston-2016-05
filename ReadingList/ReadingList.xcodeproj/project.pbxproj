@@ -7,21 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F26DE5E1CED0CE300E3F812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26DE5D1CED0CE300E3F812 /* AppDelegate.swift */; };
-		3F26DE601CED0CE300E3F812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26DE5F1CED0CE300E3F812 /* ViewController.swift */; };
-		3F26DE631CED0CE300E3F812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F26DE611CED0CE300E3F812 /* Main.storyboard */; };
-		3F26DE651CED0CE300E3F812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F26DE641CED0CE300E3F812 /* Assets.xcassets */; };
-		3F26DE681CED0CE300E3F812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F26DE661CED0CE300E3F812 /* LaunchScreen.storyboard */; };
+		3F2296371CEE286500F45BA2 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22961D1CEE286500F45BA2 /* Author.swift */; };
+		3F2296381CEE286500F45BA2 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22961E1CEE286500F45BA2 /* Book.swift */; };
+		3F2296391CEE286500F45BA2 /* BooksAndAuthors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F22961F1CEE286500F45BA2 /* BooksAndAuthors.plist */; };
+		3F22963A1CEE286500F45BA2 /* Austen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296211CEE286500F45BA2 /* Austen.png */; };
+		3F22963B1CEE286500F45BA2 /* Bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296221CEE286500F45BA2 /* Bacon.png */; };
+		3F22963C1CEE286500F45BA2 /* Carroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296231CEE286500F45BA2 /* Carroll.png */; };
+		3F22963D1CEE286500F45BA2 /* Dostoevsky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296241CEE286500F45BA2 /* Dostoevsky.png */; };
+		3F22963E1CEE286500F45BA2 /* Eliot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296251CEE286500F45BA2 /* Eliot.png */; };
+		3F22963F1CEE286500F45BA2 /* Emerson.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296261CEE286500F45BA2 /* Emerson.png */; };
+		3F2296401CEE286500F45BA2 /* Hemingway.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296271CEE286500F45BA2 /* Hemingway.png */; };
+		3F2296411CEE286500F45BA2 /* Milne.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296281CEE286500F45BA2 /* Milne.png */; };
+		3F2296421CEE286500F45BA2 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296291CEE286500F45BA2 /* More.png */; };
+		3F2296431CEE286500F45BA2 /* Newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22962A1CEE286500F45BA2 /* Newton.png */; };
+		3F2296441CEE286500F45BA2 /* NoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22962B1CEE286500F45BA2 /* NoImage.png */; };
+		3F2296451CEE286500F45BA2 /* Shakespeare.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22962C1CEE286500F45BA2 /* Shakespeare.png */; };
+		3F2296461CEE286500F45BA2 /* Thoreau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F22962D1CEE286500F45BA2 /* Thoreau.jpg */; };
+		3F2296471CEE286500F45BA2 /* Tolstoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22962E1CEE286500F45BA2 /* Tolstoy.png */; };
+		3F2296481CEE286500F45BA2 /* Twain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F22962F1CEE286500F45BA2 /* Twain.png */; };
+		3F2296491CEE286500F45BA2 /* Wells.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296301CEE286500F45BA2 /* Wells.png */; };
+		3F22964A1CEE286500F45BA2 /* Whitman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296311CEE286500F45BA2 /* Whitman.png */; };
+		3F22964C1CEE286500F45BA2 /* ModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2296331CEE286500F45BA2 /* ModelObject.swift */; };
+		3F22964D1CEE286500F45BA2 /* ReadingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2296341CEE286500F45BA2 /* ReadingList.swift */; };
+		3F22964E1CEE286500F45BA2 /* ReadingListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2296361CEE286500F45BA2 /* ReadingListStore.swift */; };
+		3F2296581CEE2E9200F45BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2296501CEE2E9200F45BA2 /* AppDelegate.swift */; };
+		3F2296591CEE2E9200F45BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296511CEE2E9200F45BA2 /* Assets.xcassets */; };
+		3F22965A1CEE2E9200F45BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296521CEE2E9200F45BA2 /* LaunchScreen.storyboard */; };
+		3F22965B1CEE2E9200F45BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2296541CEE2E9200F45BA2 /* Main.storyboard */; };
+		3F22965D1CEE2E9200F45BA2 /* ReadingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2296571CEE2E9200F45BA2 /* ReadingListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F22961D1CEE286500F45BA2 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		3F22961E1CEE286500F45BA2 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3F22961F1CEE286500F45BA2 /* BooksAndAuthors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = BooksAndAuthors.plist; sourceTree = "<group>"; };
+		3F2296211CEE286500F45BA2 /* Austen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Austen.png; sourceTree = "<group>"; };
+		3F2296221CEE286500F45BA2 /* Bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bacon.png; sourceTree = "<group>"; };
+		3F2296231CEE286500F45BA2 /* Carroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carroll.png; sourceTree = "<group>"; };
+		3F2296241CEE286500F45BA2 /* Dostoevsky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dostoevsky.png; sourceTree = "<group>"; };
+		3F2296251CEE286500F45BA2 /* Eliot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eliot.png; sourceTree = "<group>"; };
+		3F2296261CEE286500F45BA2 /* Emerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emerson.png; sourceTree = "<group>"; };
+		3F2296271CEE286500F45BA2 /* Hemingway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hemingway.png; sourceTree = "<group>"; };
+		3F2296281CEE286500F45BA2 /* Milne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milne.png; sourceTree = "<group>"; };
+		3F2296291CEE286500F45BA2 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
+		3F22962A1CEE286500F45BA2 /* Newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newton.png; sourceTree = "<group>"; };
+		3F22962B1CEE286500F45BA2 /* NoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoImage.png; sourceTree = "<group>"; };
+		3F22962C1CEE286500F45BA2 /* Shakespeare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shakespeare.png; sourceTree = "<group>"; };
+		3F22962D1CEE286500F45BA2 /* Thoreau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thoreau.jpg; sourceTree = "<group>"; };
+		3F22962E1CEE286500F45BA2 /* Tolstoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tolstoy.png; sourceTree = "<group>"; };
+		3F22962F1CEE286500F45BA2 /* Twain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twain.png; sourceTree = "<group>"; };
+		3F2296301CEE286500F45BA2 /* Wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wells.png; sourceTree = "<group>"; };
+		3F2296311CEE286500F45BA2 /* Whitman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whitman.png; sourceTree = "<group>"; };
+		3F2296331CEE286500F45BA2 /* ModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelObject.swift; sourceTree = "<group>"; };
+		3F2296341CEE286500F45BA2 /* ReadingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingList.swift; sourceTree = "<group>"; };
+		3F2296351CEE286500F45BA2 /* ReadingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListModel.h; sourceTree = "<group>"; };
+		3F2296361CEE286500F45BA2 /* ReadingListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListStore.swift; sourceTree = "<group>"; };
+		3F2296501CEE2E9200F45BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2296511CEE2E9200F45BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2296531CEE2E9200F45BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2296551CEE2E9200F45BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2296561CEE2E9200F45BA2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2296571CEE2E9200F45BA2 /* ReadingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListViewController.swift; sourceTree = "<group>"; };
 		3F26DE5A1CED0CE300E3F812 /* ReadingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F26DE5D1CED0CE300E3F812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F26DE5F1CED0CE300E3F812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F26DE621CED0CE300E3F812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F26DE641CED0CE300E3F812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F26DE671CED0CE300E3F812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F26DE691CED0CE300E3F812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +82,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F22961C1CEE286500F45BA2 /* ReadingListModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F22961D1CEE286500F45BA2 /* Author.swift */,
+				3F22961E1CEE286500F45BA2 /* Book.swift */,
+				3F22961F1CEE286500F45BA2 /* BooksAndAuthors.plist */,
+				3F2296201CEE286500F45BA2 /* Images */,
+				3F2296331CEE286500F45BA2 /* ModelObject.swift */,
+				3F2296341CEE286500F45BA2 /* ReadingList.swift */,
+				3F2296351CEE286500F45BA2 /* ReadingListModel.h */,
+				3F2296361CEE286500F45BA2 /* ReadingListStore.swift */,
+			);
+			path = ReadingListModel;
+			sourceTree = "<group>";
+		};
+		3F2296201CEE286500F45BA2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F2296211CEE286500F45BA2 /* Austen.png */,
+				3F2296221CEE286500F45BA2 /* Bacon.png */,
+				3F2296231CEE286500F45BA2 /* Carroll.png */,
+				3F2296241CEE286500F45BA2 /* Dostoevsky.png */,
+				3F2296251CEE286500F45BA2 /* Eliot.png */,
+				3F2296261CEE286500F45BA2 /* Emerson.png */,
+				3F2296271CEE286500F45BA2 /* Hemingway.png */,
+				3F2296281CEE286500F45BA2 /* Milne.png */,
+				3F2296291CEE286500F45BA2 /* More.png */,
+				3F22962A1CEE286500F45BA2 /* Newton.png */,
+				3F22962B1CEE286500F45BA2 /* NoImage.png */,
+				3F22962C1CEE286500F45BA2 /* Shakespeare.png */,
+				3F22962D1CEE286500F45BA2 /* Thoreau.jpg */,
+				3F22962E1CEE286500F45BA2 /* Tolstoy.png */,
+				3F22962F1CEE286500F45BA2 /* Twain.png */,
+				3F2296301CEE286500F45BA2 /* Wells.png */,
+				3F2296311CEE286500F45BA2 /* Whitman.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3F22964F1CEE2E9200F45BA2 /* ReadingList */ = {
+			isa = PBXGroup;
+			children = (
+				3F2296501CEE2E9200F45BA2 /* AppDelegate.swift */,
+				3F2296571CEE2E9200F45BA2 /* ReadingListViewController.swift */,
+				3F2296511CEE2E9200F45BA2 /* Assets.xcassets */,
+				3F2296521CEE2E9200F45BA2 /* LaunchScreen.storyboard */,
+				3F2296541CEE2E9200F45BA2 /* Main.storyboard */,
+				3F2296561CEE2E9200F45BA2 /* Info.plist */,
+			);
+			path = ReadingList;
+			sourceTree = "<group>";
+		};
 		3F26DE511CED0CE300E3F812 = {
 			isa = PBXGroup;
 			children = (
-				3F26DE5C1CED0CE300E3F812 /* ReadingList */,
+				3F22961C1CEE286500F45BA2 /* ReadingListModel */,
+				3F22964F1CEE2E9200F45BA2 /* ReadingList */,
 				3F26DE5B1CED0CE300E3F812 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,19 +149,6 @@
 				3F26DE5A1CED0CE300E3F812 /* ReadingList.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3F26DE5C1CED0CE300E3F812 /* ReadingList */ = {
-			isa = PBXGroup;
-			children = (
-				3F26DE5D1CED0CE300E3F812 /* AppDelegate.swift */,
-				3F26DE5F1CED0CE300E3F812 /* ViewController.swift */,
-				3F26DE611CED0CE300E3F812 /* Main.storyboard */,
-				3F26DE641CED0CE300E3F812 /* Assets.xcassets */,
-				3F26DE661CED0CE300E3F812 /* LaunchScreen.storyboard */,
-				3F26DE691CED0CE300E3F812 /* Info.plist */,
-			);
-			path = ReadingList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +209,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F26DE681CED0CE300E3F812 /* LaunchScreen.storyboard in Resources */,
-				3F26DE651CED0CE300E3F812 /* Assets.xcassets in Resources */,
-				3F26DE631CED0CE300E3F812 /* Main.storyboard in Resources */,
+				3F22963A1CEE286500F45BA2 /* Austen.png in Resources */,
+				3F22963B1CEE286500F45BA2 /* Bacon.png in Resources */,
+				3F2296431CEE286500F45BA2 /* Newton.png in Resources */,
+				3F22963C1CEE286500F45BA2 /* Carroll.png in Resources */,
+				3F2296401CEE286500F45BA2 /* Hemingway.png in Resources */,
+				3F22965B1CEE2E9200F45BA2 /* Main.storyboard in Resources */,
+				3F22963E1CEE286500F45BA2 /* Eliot.png in Resources */,
+				3F2296441CEE286500F45BA2 /* NoImage.png in Resources */,
+				3F22963D1CEE286500F45BA2 /* Dostoevsky.png in Resources */,
+				3F2296461CEE286500F45BA2 /* Thoreau.jpg in Resources */,
+				3F2296481CEE286500F45BA2 /* Twain.png in Resources */,
+				3F2296421CEE286500F45BA2 /* More.png in Resources */,
+				3F2296391CEE286500F45BA2 /* BooksAndAuthors.plist in Resources */,
+				3F2296411CEE286500F45BA2 /* Milne.png in Resources */,
+				3F2296591CEE2E9200F45BA2 /* Assets.xcassets in Resources */,
+				3F2296451CEE286500F45BA2 /* Shakespeare.png in Resources */,
+				3F22964A1CEE286500F45BA2 /* Whitman.png in Resources */,
+				3F2296471CEE286500F45BA2 /* Tolstoy.png in Resources */,
+				3F22965A1CEE2E9200F45BA2 /* LaunchScreen.storyboard in Resources */,
+				3F22963F1CEE286500F45BA2 /* Emerson.png in Resources */,
+				3F2296491CEE286500F45BA2 /* Wells.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +240,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F26DE601CED0CE300E3F812 /* ViewController.swift in Sources */,
-				3F26DE5E1CED0CE300E3F812 /* AppDelegate.swift in Sources */,
+				3F2296581CEE2E9200F45BA2 /* AppDelegate.swift in Sources */,
+				3F2296381CEE286500F45BA2 /* Book.swift in Sources */,
+				3F22964E1CEE286500F45BA2 /* ReadingListStore.swift in Sources */,
+				3F2296371CEE286500F45BA2 /* Author.swift in Sources */,
+				3F22965D1CEE2E9200F45BA2 /* ReadingListViewController.swift in Sources */,
+				3F22964D1CEE286500F45BA2 /* ReadingList.swift in Sources */,
+				3F22964C1CEE286500F45BA2 /* ModelObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F26DE611CED0CE300E3F812 /* Main.storyboard */ = {
+		3F2296521CEE2E9200F45BA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F26DE621CED0CE300E3F812 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3F26DE661CED0CE300E3F812 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F26DE671CED0CE300E3F812 /* Base */,
+				3F2296531CEE2E9200F45BA2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2296541CEE2E9200F45BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2296551CEE2E9200F45BA2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +394,7 @@
 				3F26DE6E1CED0CE300E3F812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
